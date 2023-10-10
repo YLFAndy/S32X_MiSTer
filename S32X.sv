@@ -1293,6 +1293,7 @@ always @(posedge clk_sys) begin
 			else if(cart_id[63:0] == "T-81476 ") eeprom_map        <= 4'b1101; 	// Frank Thomas Big Hurt Baseball
 			else if(cart_id[63:0] == "T-8104B ") eeprom_map        <= 4'b1011; 	// NBA Jam TE (32X)
 			else if(cart_id[63:0] == "T-8102B ") eeprom_map        <= 4'b1011; 	// NFL Quarterback Club (32X)
+			else if(cart_id[63:0] == "T-8103B ") eeprom_map        <= 4'b1101;      // WWF Raw
 			else if(cart_id[63:0] == "T-113016") noram_quirk       <= 1; 			// Puggsy fake ram check
 //			else if(cart_id[63:0] == "T-89016 ") fifo_quirk        <= 1; 			// Clue
 			else if(cart_id[63:0] == "T-574023") pier_quirk        <= 1; 			// Pier Solar Reprint
